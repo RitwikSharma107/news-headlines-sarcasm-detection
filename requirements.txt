@@ -1,7 +1,4 @@
 pandas==1.1.5
-numpy==1.18.2
 streamlit
-matplotlib==3.2.1
-python_pptx==0.6.18
 Pillow==8.0.1
 tensorflow
