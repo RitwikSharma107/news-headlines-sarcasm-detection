@@ -47,7 +47,8 @@ def main():
         
     if nav == 'About':
         st.subheader('This project is made to implement natural language processing in tensorflow.')
-        st.subheader('In this project, I have implemented the Recurrent Neural Network(RNN) with Long Short Term Memory(LSTM) networks in order to detect sarcasm in the news headlines.') 
+        st.subheader('In this project, I have compared all machine learning models with simple RNN, Bidirectional LSTM, and BERT for detecting sarcasm in news headlines.') 
+        st.subheader('Bidirectional LSTM is the best performing model based on perfomance.') 
         st.header('Long short-term memory (LSTM)')
         st.write('LSTM networks are an extension of recurrent neural networks (RNNs) mainly introduced to handle situations where RNNs fail.')
         st.write('Talking about RNN, it is a network that works on the present input by taking into consideration the previous output (feedback) and storing in its memory for a short period of time (short-term memory).')
